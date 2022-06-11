@@ -1,0 +1,4 @@
+<FilesMatch "\.(htaccess|ini|png|bak|)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
